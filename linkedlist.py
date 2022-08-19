@@ -1,10 +1,10 @@
 #node class
-class node:
+class node():
 	def __init__(self,data=None):
 		self.data=data
 		self.next=None
 
-class linked_list:
+class linked_list():
 	def __init__(self):
 		self.head = node()
 
@@ -57,9 +57,7 @@ class linked_list:
 				return
 			cur_idx+=1
 
-
-
-
+#this is beging of the code
 my_list = linked_list()
 
 my_list.append(1)
